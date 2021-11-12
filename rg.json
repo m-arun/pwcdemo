@@ -1,0 +1,409 @@
+{
+    "resourceType": "MESSAGESTREAM",
+    "dataDescriptor": {
+        "ambientNoise": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value of ambient noise level in decibel over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "decibel (dB)",
+                "unitCode": "2N",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of ambient noise levels for the last 15 minutes"
+            }
+        },
+        "uv": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Ultraviolet (UV) radiation over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "UV Index (uvi)",
+                "unitCode": "C62",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of UV radiation for the last 15 minutes"
+            }
+        },
+        "o2": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Oxygen (02) in percent over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "percent",
+                "unitCode": "P1",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of O2 for the last 15 minutes"
+            }
+        },
+        "so2": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Sulphur Dioxide (S02) in microgram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "microgram per cubic metre",
+                "unitCode": "GQ",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of SO2 for the last 15 minutes"
+            }
+        },
+        "deviceStatus": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Status of the device. Whether connected or not connected.",
+            "dataSchema": "iudx:Text"
+        },
+        "type": [
+            "iudx:DataDescriptor",
+            "iudx:EnvAQM"
+        ],
+        "pm10": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for particulate matter10 (PM10) in microgram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "micro gram per cubic metre (ug/m3)",
+                "unitCode": "GQ",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of PM10 for the last 15 minutes"
+            }
+        },
+        "pm2p5": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for particulate matter2.5 (PM2.5) in microgram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "micro gram per cubic metre (ug/m3)",
+                "unitCode": "GQ",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of PM2.5 for the last 15 minutes"
+            }
+        },
+        "co": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Carbon Monoxide (C0) in milligram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "milligram per cubic metre (mg/m3)",
+                "unitCode": "GP",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of CO for the last 15 minutes"
+            }
+        },
+        "airQualityIndex": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "dataSchema": "iudx:Number",
+            "unitText": "dimensionless",
+            "description": "Overall AQI",
+            "unitCode": "C62"
+        },
+        "observationDateTime": {
+            "type": [
+                "ValueDescriptor"
+            ],
+            "description": "Last reported time of observation.",
+            "dataSchema": "iudx:DateTime"
+        },
+        "co2": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Carbon Dioxide (C02) in part per million over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "part per million (ppm)",
+                "unitCode": "59",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of CO2 for the last 15 minutes"
+            }
+        },
+        "o3": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Ozone (03) in microgram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "microgram per cubic metre",
+                "unitCode": "GQ",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of O3 for the last 15 minutes"
+            }
+        },
+        "dataDescriptorLabel": "Data Attribute Details for AQM sensors in Varanasi city.",
+        "relativeHumidity": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for relative humidity over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "percent",
+                "unitCode": "P1",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of relative humidity (water vapour in air) for last 15 minutes."
+            }
+        },
+        "illuminance": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value of ambient light intensity in lux over the last 15 minutes..",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "lux (lx)",
+                "unitCode": "LUX",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of ambient light intensity for the last 15 minutes"
+            }
+        },
+        "no2": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for Nitrogen Dioxide (N02) in microgram per cubic metre over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "microgram per cubic metre",
+                "unitCode": "GQ",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of NO2 for the last 15 minutes"
+            }
+        },
+        "airTemperature": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for air temperature in degree Celsius over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "degree Celsius (C)",
+                "unitCode": "CEL",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of temperature for the last 15 minutes"
+            }
+        },
+        "description": "Data descriptor for AQM sensors in Varanasi.",
+        "@context": "https://voc.iudx.org.in/",
+        "atmosphericPressure": {
+            "type": [
+                "TimeSeriesAggregation"
+            ],
+            "description": "The aggregated value for atmospheric pressure in hectopascal over the last 15 minutes.",
+            "avgOverTime": {
+                "dataSchema": "iudx:Number",
+                "unitText": "hectopascal (hPa)",
+                "unitCode": "A97",
+                "type": [
+                    "ValueDescriptor"
+                ],
+                "aggregationDuration": {
+                    "unitCode": "MIN",
+                    "unitText": "minutes",
+                    "value": 15
+                },
+                "description": "Average value of air pressure for the last 15 minutes"
+            }
+        }
+    },
+    "dataSampleFile": "https://file.iudx.org.in//iudx/v1/download?file-id=iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86/rs.iudx.io/varanasi-env-aqm/sample.json",
+    "dataSample": {
+        "ambientNoise": {
+            "avgOverTime": 71.16
+        },
+        "uv": {
+            "avgOverTime": 0.83
+        },
+        "o2": {
+            "avgOverTime": 19.66
+        },
+        "so2": {
+            "avgOverTime": 33.48
+        },
+        "deviceStatus": "ACTIVE",
+        "pm10": {
+            "avgOverTime": 71.81
+        },
+        "co": {
+            "avgOverTime": 1.07
+        },
+        "airQualityIndex": 112,
+        "pm2p5": {
+            "avgOverTime": 56.22
+        },
+        "co2": {
+            "avgOverTime": 488.46
+        },
+        "o3": {
+            "avgOverTime": 5.58
+        },
+        "airTemperature": {
+            "avgOverTime": 36.63
+        },
+        "relativeHumidity": {
+            "avgOverTime": 58.3
+        },
+        "illuminance": {
+            "avgOverTime": 21352.76
+        },
+        "no2": {
+            "avgOverTime": 91.87
+        },
+        "observationDateTime": "2020-09-16T11:00:00+05:30",
+        "atmosphericPressure": {
+            "avgOverTime": 993.85
+        }
+    },
+    "label": "Varanasi AQM Sensors",
+    "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnvAQM"
+    ],
+    "provider": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86",
+    "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+    ],
+    "tags": [
+        "environment",
+        "air quality",
+        "climate",
+        "air",
+        "aqi",
+        "aqm",
+        "polludrone",
+        "pollution",
+        "so2",
+        "co2",
+        "co",
+        "no",
+        "no2",
+        "pm2.5",
+        "pm10",
+        "humidity",
+        "temperature",
+        "ozone",
+        "o3",
+        "noise",
+        "light",
+        "uv"
+    ],
+    "id": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86/rs.iudx.io/varanasi-env-aqm",
+    "accessPolicy": "OPEN",
+    "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/rs.iudx.io",
+    "name": "varanasi-env-aqm",
+    "@context": "https://voc.iudx.org.in/",
+    "description": "AQM sensors in Varanasi city.",
+    "location": {
+        "type": "Place",
+        "address": "Varanasi, Uttar Pradesh"
+    },
+    "itemStatus": "ACTIVE",
+    "itemCreatedAt": "2021-06-04T10:31:49+0530"
+}
