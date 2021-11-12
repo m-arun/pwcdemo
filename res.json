@@ -1,86 +1,26 @@
 {
-    "id": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86/rs.iudx.io/pune-env-flood-2",
-    "name": "pune-env-flood-2",
-    "description": "Flood level sensors in Pune city.",
-    "label": "Pune Flood Sensors",
-    "location": {
-        "address": "Pune, Maharashtra",
-        "type": "Place"
-    },
-    "itemStatus": "ACTIVE",
-    "dataSampleFile": "https://file.iudx.org.in/iudx/v1/download?file-id=datakaveri.org/04a15c9960ffda227e9546f3f46e629e1fe4132b/rs.iudx.org.in/pune-env-flood/sample.json",
-    "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/rs.iudx.io",
-    "dataDescriptor": {
-        "dataDescriptorLabel": "Data Descriptor for flood-level sensor data in Pune city",
-        "currentLevel": {
-            "unitText": "meter",
-            "description": "Current flooding level indicated by the sensing station corresponding to this observation, computed using referenceLevel and measuredDistance(currentLevel = referenceLevel - measuredDistance).",
-            "unitCode": "MTR",
-            "type": [
-                "ValueDescriptor"
-            ],
-            "dataSchema": "iudx:Number"
-        },
-        "description": "Data Descriptor for flood sensor data.",
-        "type": [
-            "iudx:DataDescriptor",
-            "iudx:EnvFlood"
-        ],
-        "measuredDistance": {
-            "unitText": "meter",
-            "description": "The distance measured by the sensor, from the sensor tip to the upper surface of water.",
-            "unitCode": "MTR",
-            "type": [
-                "ValueDescriptor"
-            ],
-            "dataSchema": "iudx:Number"
-        },
-        "observationDateTime": {
-            "description": "Last reported time of observation.",
-            "type": [
-                "ValueDescriptor"
-            ],
-            "dataSchema": "iudx:DateTime"
-        },
-        "referenceLevel": {
-            "unitText": "meter",
-            "description": "Reference setting used to compute the currentLevel.",
-            "unitCode": "MTR",
-            "type": [
-                "ValueDescriptor"
-            ],
-            "dataSchema": "iudx:Number"
-        },
-        "@context": "https://voc.iudx.org.in/"
-    },
-    "type": [
-        "iudx:ResourceGroup",
-        "iudx:EnvFlood"
-    ],
-    "@context": "https://voc.iudx.org.in/",
-    "dataSample": {
-        "measuredDistance": 3.22,
-        "currentLevel": 0.98,
-        "observationDateTime": "2020-09-16T13:30:00+05:30",
-        "referenceLevel": 4.2
-    },
-    "provider": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86",
-    "accessPolicy": "OPEN",
-    "resourceType": "MESSAGESTREAM",
+    "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/varanasi-env-aqm",
+    "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
     "tags": [
-        "flooding",
-        "water flooding",
-        "flood",
-        "flood alert",
-        "flood danger",
-        "level",
-        "river",
-        "river bed"
+        "environment",
+        "air quality",
+        "air",
+        "pollution",
+        "co2",
+        "temperature"
     ],
-    "iudxResourceAPIs": [
-        "ATTR",
-        "TEMPORAL"
+    "type": [
+        "iudx:Resource",
+        "iudx:EnvAQM"
     ],
-    "instance": "pune",
-    "itemCreatedAt": "2021-07-05T12:06:28+0530"
+    "name": "test",
+    "itemStatus": "ACTIVE",
+    "label": "testintegration",
+    "@context": "https://voc.iudx.org.in/",
+    "description": "test resource",
+    "location": {
+        "type": "Place",
+        "address": "Bangalore, Karnataka"
+    },
+    "itemCreatedAt": "2020-10-15T01:06:41+0530"
 }
