@@ -1,0 +1,842 @@
+[
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "BAULIYA, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.968055,
+                    25.316092
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0105_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0105_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0105_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "CANTT STATION, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.976601,
+                    25.333206
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0134_60",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0134_60"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0134_60",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "PADAO, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.043587,
+                    25.314421
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0135_61",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0135_61"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0135_61",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "PANCHKOSHI, Ashapur, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.026756,
+                    25.351347
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0936_62",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0936_62"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0936_62",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "ADHAMPUR, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.024954,
+                    25.330703
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0101_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0101_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0101_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "BHU, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.985001,
+                    25.2603
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0102_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0102_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0102_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:57+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Ardali Bazar, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.983055,
+                    25.347536
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0106_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0106_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0106_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Bhelupur, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9872775,
+                    25.3024573
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0110_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0110_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0110_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Maldahiya, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.991695,
+                    25.32413
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0103_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0103_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0103_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Sarnath, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.021156,
+                    25.377403
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0133_59",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0133_59"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0133_59",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "TARANA, Shivpur, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.940178,
+                    25.362307
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_1037_63",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_1037_63"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_1037_63",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Shastri Chawk, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.023659,
+                    25.274981
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0138_64",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0138_64"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0138_64",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:59+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Ganeshpur geet khandwa geet D.L.W, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.959671,
+                    25.26536
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0104_01",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0104_01"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0104_01",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Brahmapuri Lane Dashashwamedh Road Near Creative Art Gallery Dashashwamedh Ghat, Bangali Tola, Varanasi",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.009789,
+                    25.30566
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0140_66",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0140_66"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0140_66",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    },
+    {
+        "tags": [
+            "environment",
+            "air quality",
+            "climate",
+            "air",
+            "aqi",
+            "aqm",
+            "pollution",
+            "so2",
+            "co2",
+            "co",
+            "no",
+            "no2",
+            "pm2.5",
+            "pm10",
+            "humidity",
+            "temperature",
+            "ozone",
+            "o3",
+            "noise",
+            "light",
+            "uv"
+        ],
+        "type": [
+            "iudx:Resource",
+            "iudx:EnvAQM"
+        ],
+        "location": {
+            "address": "Manduadih, Sigra, Uttar Pradesh",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.96855,
+                    25.30198
+                ]
+            },
+            "type": "Place"
+        },
+        "description": "Air Quality Monitoring Sensor in Varanasi city.",
+        "@context": "https://voc.iudx.org.in/",
+        "label": "AQM Sensor EM_01_0139_65",
+        "deviceInfo": {
+            "deviceModel": {
+                "modelName": "Polludrone",
+                "brandName": "Oizom",
+                "modelURL": "https://oizom.com/product/polludrone-air-pollution-monitoring/"
+            },
+            "deviceID": "EM_01_0139_65"
+        },
+        "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+        "name": "EM_01_0139_65",
+        "itemStatus": "ACTIVE",
+        "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm",
+        "itemCreatedAt": "2020-09-20T06:03:58+0530"
+    }
+]

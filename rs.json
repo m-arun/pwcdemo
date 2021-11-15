@@ -1,0 +1,45 @@
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:ResourceServer"
+    ],
+    "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+    "name": "rs.iudx.pwc.io",
+    "description": "Multi tenanted PWC IUDX resource server",
+    "tags": [
+        "PWC",
+        "IUDX",
+        "Resource",
+        "Server",
+        "Platform"
+    ],
+    "resourceServerHTTPAccessURL": "rs.pwc.iudx.io",
+    "resourceServerStreamingAccessURL": "databroker.pwc.iudx.io",
+    "resourceServerOrg": {
+        "name": "iudx",
+        "additionalInfoURL": "https://iudx.org.in",
+        "location": {
+            "type": "Place",
+            "address": "IISc, Bangalore",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.570423,
+                    13.013945
+                ]
+            }
+        }
+    },
+    "location": {
+        "type": "Place",
+        "address": "IISc, Bangalore",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                77.570423,
+                13.013945
+            ]
+        }
+    },
+    "instance": ""
+}

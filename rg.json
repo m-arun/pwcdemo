@@ -1,5 +1,4 @@
 {
-    "resourceType": "MESSAGESTREAM",
     "dataDescriptor": {
         "ambientNoise": {
             "type": [
@@ -312,7 +311,7 @@
             }
         }
     },
-    "dataSampleFile": "https://file.iudx.org.in//iudx/v1/download?file-id=iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86/rs.iudx.io/varanasi-env-aqm/sample.json",
+    "dataSampleFile": "https://file.iudx.org.in//iudx/v1/download?file-id=pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/varanasi-env-aqm/sample.json",
     "dataSample": {
         "ambientNoise": {
             "avgOverTime": 71.16
@@ -361,15 +360,6 @@
         }
     },
     "label": "Varanasi AQM Sensors",
-    "type": [
-        "iudx:ResourceGroup",
-        "iudx:EnvAQM"
-    ],
-    "provider": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86",
-    "iudxResourceAPIs": [
-        "ATTR",
-        "TEMPORAL"
-    ],
     "tags": [
         "environment",
         "air quality",
@@ -394,16 +384,23 @@
         "light",
         "uv"
     ],
-    "id": "iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86/rs.iudx.io/varanasi-env-aqm",
-    "accessPolicy": "OPEN",
-    "resourceServer": "datakaveri.org/f7e044eee8122b5c87dce6e7ad64f3266afa41dc/rs.iudx.io",
-    "name": "varanasi-env-aqm",
     "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:ResourceGroup",
+        "iudx:EnvAQM"
+    ],
+    "name": "varanasi-env-aqm",
+    "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+    "resourceServer": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io",
+    "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+    ],
+    "resourceType": "MESSAGESTREAM",
+    "accessPolicy": "OPEN",
     "description": "AQM sensors in Varanasi city.",
     "location": {
         "type": "Place",
         "address": "Varanasi, Uttar Pradesh"
-    },
-    "itemStatus": "ACTIVE",
-    "itemCreatedAt": "2021-06-04T10:31:49+0530"
+    }
 }

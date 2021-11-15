@@ -1,1 +1,24 @@
-{"@context":"https://voc.iudx.org.in/","type":["iudx:Provider"],"description":"Administrator of the IUDX platform","providerOrg":{"additionalInfoURL":"https://iudx.org.in","location":{"type":"Place","address":"ABD area, Pune","geometry":{"type":"Point","coordinates":[75.92,14.5]}},"name":"iudx"},"id":"iisc.ac.in/89a36273d77dac4cf38114fca1bbe64392547f86","name":"IUDX-admin"}
+{
+    "@context": "https://voc.iudx.org.in/",
+    "type": [
+        "iudx:Provider"
+    ],
+    "description": "Administrator of the PWC IUDX platform",
+    "providerOrg": {
+        "additionalInfoURL": "https://pwc.com",
+        "location": {
+            "type": "Place",
+            "address": "Delhi",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.92,
+                    14.5
+                ]
+            }
+        },
+        "name": "iudx"
+    },
+    "id": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+    "name": "PWC-IUDX-admin"
+}

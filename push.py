@@ -2,19 +2,43 @@ import json
 import requests
 import os
 
-url = "localhost:8443"
-token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJzdWIiOiI4NDRlMjUxYi01NzRiLTQ2ZTYtOTI0Ny1mNzZmMWY3MGE2MzciLCJpc3MiOiJhdXRodmVydHguaXVkeC5pbyIsImF1ZCI6ImNhdGFsb2d1ZS5pdWR4LmlvIiwiZXhwIjoxNjMyMjYxMjkxLCJpYXQiOjE2MzIyMTgwOTEsImlpZCI6InJpOmlpc2MuYWMuaW4vODlhMzYyNzNkNzdkYWM0Y2YzODExNGZjYTFiYmU2NDM5MjU0N2Y4Ni9jYXRhbG9ndWUuaXVkeC5pby9jYXRhbG9ndWUvY3J1ZCIsInJvbGUiOiJwcm92aWRlciIsImNvbnMiOnt9fQ.BTNDXRQ90C9wTWGtcYzIgjZgbhoV_ELX6smaJxjbvceKFHbVaHMaxYMMyyTrQUGe3b7BpGgODu4vR6JAycfmRg"
-
-api = "http://" + url + "/iudx/cat/v1/item"
-
-headers = {"instance": "pune", "content-type": "application/json", "token": token}
+url = "http://localhost:9999"
+token = ""
 
 
-resource_item = {}
+api = url + "/iudx/cat/v1/item"
+headers = {"content-type": "application/json", "token": token}
 
-with open("./aqm/rg.json", "r") as f:
-    resource_item = json.load(f)
 
-r = requests.post(api, json.dumps(resource_item), headers=headers, verify=False)
-print(r.status_code)
-print(r.json())
+# Push any document
+
+def push(doc):
+    r = requests.post(api, json.dumps(doc), headers=headers, verify=False)
+    print(r.status_code)
+    print(r.json())
+    if (r.status_code == 201):
+        print("Successfully pushed")
+
+
+
+
+# Insert provider item first
+with open("./provider.json", "r") as f:
+    provider = json.load(f)
+    push(provider)
+
+# Insert Resource Server
+with open("./rs.json", "r") as f:
+    server = json.load(f)
+    push(server)
+
+# Insert Resource Group
+with open("./rg.json", "r") as f:
+    group = json.load(f)
+    push(group)
+
+# Insert Resources
+with open("./ri.json", "r") as f:
+    resources = json.load(f)
+    for resource in resources:
+        push(resource)
