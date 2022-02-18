@@ -1,0 +1,26 @@
+{
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup"
+      ],
+      "id": "RG",
+      "name": "ration-card-department",
+      "label": "ration department entries",
+      "description": "ration Card Registry",
+      "tags": [
+        "ration",
+        "uid",
+        "unique identification",
+        "registry",
+        "ration card"
+      ],
+      "accessPolicy": "SECURE",
+      "authControlLevel": "GROUP",
+      "itemStatus": "ACTIVE",
+      "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+      "resourceServer": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io",
+      "location": {
+        "address": "Bengaluru",
+        "type": "Place"
+      }
+    }

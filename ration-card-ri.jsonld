@@ -1,0 +1,59 @@
+{
+	"@context": "https://voc.iudx.org.in/",
+	"type": [
+		"iudx:Resource"
+	],
+	"id": "RI",
+	"name": "apl-bpl-info",
+	"label": "ration APL-BPL Information",
+	"description": "APL or BPL information from ration department",
+	"tags": [
+		"ration",
+		"uid",
+		"unique identification",
+		"registry",
+		"ration card"
+	],
+	"itemStatus": "ACTIVE",
+	"resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/ration-department",
+	"provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+	"resourceType": "MESSAGESTREAM",
+	"iudxResourceAPIs": [
+		"ATTR",
+		"TEMPORAL"
+	],
+	"dataDescriptor": {
+		"@context": "https://voc.iudx.org.in/",
+		"type": [
+			"iudx:DataDescriptor"
+		],
+		"dataDescriptorLabel": "Data descriptor for ration department.",
+		"description": "APL-BPL info from ration department.",
+		"rationCardNumber": {
+			"type": [
+				"ValueDescriptor"
+			],
+			"description": "Ration card number corresponding to this observation.",
+			"dataSchema": "iudx:Text"
+		},
+		"bplStatus": {
+			"type": [
+				"ValueDescriptor"
+			],
+			"description": "Above/Below poverty line flag",
+			"dataSchema": "iudx:Text"
+		},
+		"observationDateTime": {
+			"type": [
+				"ValueDescriptor"
+			],
+			"description": "Last reported time of observation.",
+			"dataSchema": "iudx:DateTime"
+		}
+	},
+	"dataSample": {
+		"rationCardNumber": "12345467",
+		"bplStatus": "Y",
+		"observationDateTime": "2021-07-25T19:46:04+05:30"
+	}
+}
