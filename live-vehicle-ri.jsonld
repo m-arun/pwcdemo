@@ -1,0 +1,92 @@
+{
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:Resource",
+        "iudx:EmergencyVehicle"
+      ],
+      "id": "RI",
+      "name": "ambulance-live",
+      "label": "Realtime Location Info of Ambulances in Bengaluru City.",
+      "description": "Realtime information of ambulances in Bengaluru city. Publishes realtime emergency vehicle location and on call status of Ambulances in Bengaluru city at an interval of 10 seconds.",
+      "tags": [
+        "ambulance",
+        "motor cycle ambulance",
+        "bike ambulance",
+        "emergency vehicle",
+        "license plate",
+        "sos",
+        "on call",
+        "emergency service",
+        "patient",
+        "hospital",
+        "on duty",
+        "help",
+        "service on duty"
+      ],
+      "itemStatus": "ACTIVE",
+      "dataSampleFile": "https://file.iudx.org.in/iudx/v1/download?file-id=datakaveri.org/fb0924bef803e220e0d0bc8ceaf0a1f999442f32/rs.iudx.org.in/bengaluru-emergency-vehicles/ambulance-live/sample.json",
+      "resourceGroup": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io/bengaluru-emergency-vehicles",
+      "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+      "resourceType": "MESSAGESTREAM",
+      "iudxResourceAPIs": [
+        "ATTR",
+        "TEMPORAL"
+      ],
+      "dataDescriptor": {
+        "@context": "https://voc.iudx.org.in/",
+        "type": [
+          "iudx:DataDescriptor",
+          "iudx:EmergencyVehicle"
+        ],
+        "dataDescriptorLabel": "Data descriptor for ambulance vehicle details in Bengaluru city.",
+        "description": "Ambulances in Bengaluru city.",
+        "emergencyVehicleType": {
+          "type": [
+            "ValueDescriptor"
+          ],
+          "description": "The vehicle type of the emergency vehicle corresponding to this observation,which can be AMBULANCE or MOTORCYCLE AMBULANCE in this instance.",
+          "dataSchema": "iudx:Text"
+        },
+        "license_plate": {
+          "type": [
+            "ValueDescriptor"
+          ],
+          "description": "Registration number of the ambulance vehicle corresponding to this observation.",
+          "dataSchema": "iudx:Text"
+        },
+        "serviceOnDuty": {
+          "type": [
+            "ValueDescriptor"
+          ],
+          "description": "Describes if the ambulance corresponding to this observation is attending to a call or not. This field is marked YES if the ambulance is attending to a call and marked NO otherwise.",
+          "dataSchema": "iudx:Text"
+        },
+        "observationDateTime": {
+          "type": [
+            "ValueDescriptor"
+          ],
+          "description": "Last reported time of observation.",
+          "dataSchema": "iudx:DateTime"
+        },
+        "location": {
+          "description": "Physical coordinates of the ambulance vehicle at the last tracked time of observation.",
+          "type": [
+            "ValueDescriptor"
+          ],
+          "dataSchema": "iudx:Point"
+        }
+      },
+      "dataSample": {
+        "emergencyVehicleType": "Ambulance",
+        "license_plate": "KA40G425",
+        "observationDateTime": "2021-08-11T13:41:14+5:30",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            77.59124,
+            12.9771
+          ]
+        },
+        "serviceOnDuty": "YES"
+      }
+    }

@@ -1,0 +1,38 @@
+{
+      "@context": "https://voc.iudx.org.in/",
+      "type": [
+        "iudx:ResourceGroup",
+        "iudx:EmergencyVehicle"
+      ],
+      "id": "RG",
+      "name": "bengaluru-emergency-vehicles",
+      "label": "Realtime Info of Ambulances in Bengaluru City",
+      "description": "Realtime information of ambulances in Bengaluru city. Publishes realtime emergency vehicle location and on call status of Ambulances in Bengaluru city.",
+      "tags": [
+        "ambulance",
+        "motor cycle ambulance",
+        "bike ambulance",
+        "emergency vehicle",
+        "license plate",
+        "sos",
+        "on call",
+        "emergency service",
+        "patient",
+        "hospital",
+        "on duty",
+        "help",
+        "siren",
+        "emergency transit",
+        "make way",
+        "green corridor"
+      ],
+      "accessPolicy": "SECURE",
+      "authControlLevel": "GROUP",
+      "itemStatus": "ACTIVE",
+      "provider": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191",
+      "resourceServer": "pwc.com/a7a9e9448ce35e266c7e8e2907ba5f67c875e191/rs.iudx.pwc.io",
+      "location": {
+        "address": "Bengaluru",
+        "type": "Place"
+      }
+    }
